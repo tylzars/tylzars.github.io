@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
+baseURL = "https://tylzars.github.io/"
 languageCode = "en-us"
-title = "Archie"
+title = "Tyler's Blog"
 theme="archie"
 copyright = "© Athul"
 pygmentsstyle = "monokai"
