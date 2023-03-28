@@ -29,7 +29,7 @@ description: Here is a demo of all shortcodes available in Hugo.
 
 ## Instagram
 
-{{< instagram BWNjjyYFxVx >}}
+<!-- {{< instagram BWNjjyYFxVx >}} -->
 
 ## Callouts
 
