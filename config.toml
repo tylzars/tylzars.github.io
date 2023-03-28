@@ -10,7 +10,7 @@ pygmentscodefencesguesssyntax = true
 # General Parameters for site
 [params]
 	mode="toggle"
-	useCDN=true
+	useCDN=false
 	subtitle = "A place for write-ups and other codebased information!"
 
 # These come from: https://feathericons.com/?query=web

@@ -30,9 +30,9 @@ There's only four key connections that we need between the two pieces of tech, t
 
 These images kinda show the rest of the process. For the breadboard image, all credit goes [here](https://learn.adafruit.com/assets/56786).
 
-![Breadboard Overview](/sensors_bme_bb.png)
-![Breadboard Hacky Overview](/breadboard_solder_lines.jpeg)
-![Finished Solder](/pi_wired.jpeg)
+![Breadboard Overview](sensors_bme_bb.png)
+![Breadboard Hacky Overview](breadboard_solder_lines.jpeg)
+![Finished Solder](pi_wired.jpeg)
 
 Alright, that's the hard part if you aren't really good with soldering. Don't forget you can just use some small cheap jumper cables to make your life much easier. On the the fun part, our Raspberry Pi!
 
