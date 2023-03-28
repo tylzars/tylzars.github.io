@@ -6,11 +6,14 @@ copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+# General Parameters for site
 [params]
 	mode="toggle"
 	useCDN=true
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	subtitle = "A place for write-ups and other codebased information!"
 
+# These come from: https://feathericons.com/?query=web
 [[params.social]]
 name = "GitHub"
 icon = "github"
@@ -22,10 +25,11 @@ icon = "twitter"
 url = "https://twitter.com/tylzars"
 
 [[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/tylzars"
+name = "Personal Site"
+icon = "layout"
+url = "https://zars.me/home"
 
+# Website top menu
 [[menu.main]]
 name = "Home"
 url = "/"
