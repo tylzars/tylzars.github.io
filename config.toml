@@ -24,7 +24,7 @@ url = "https://twitter.com/tylzars"
 [[params.social]]
 name = "GitLab"
 icon = "gitlab"
-url = "https://gitlab.com/tylzars/"
+url = "https://gitlab.com/tylzars"
 
 [[menu.main]]
 name = "Home"
