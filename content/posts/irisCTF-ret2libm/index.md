@@ -1,8 +1,8 @@
 ---
-title: "irisCTF-ret2libm"
+title: "irisCTF ret2libm"
 date: 2023-02-01T12:13:32+05:30
-description: "ret2libc but with some other steps"
-tags: [python, ret2lic, pwn]
+description: "ret2libc but someone added this libm thing... What is that?"
+tags: [python, ret2libc, pwn]
 ---
 
 ## The Challenge
