@@ -1,6 +1,6 @@
 ---
 title: "HeroCTF V5"
-date: 2023-02-01T12:13:32+05:30
+date: 2023-05-15T12:13:32+05:30
 description: "ret2libc but someone added this libm thing... What is that?"
 tags: [python, pwn, web, system, forensics]
 ---
