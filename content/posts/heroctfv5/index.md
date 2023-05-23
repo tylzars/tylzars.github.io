@@ -1,7 +1,7 @@
 ---
 title: "HeroCTF V5"
 date: 2023-05-15T12:13:32+05:30
-description: "ret2libc but someone added this libm thing... What is that?"
+description: "Some web and system solves using a wide array of interesting catches and snags."
 tags: [python, pwn, web, system, forensics]
 ---
 
