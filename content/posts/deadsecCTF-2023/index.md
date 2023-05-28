@@ -1,5 +1,5 @@
 ---
-title: "deadsecCTF"
+title: "deadsecCTF 2023"
 date: 2023-05-22T12:13:32+05:30
 description: "I happened to pop this open while travelling and looked at a web problem..."
 tags: [web]
