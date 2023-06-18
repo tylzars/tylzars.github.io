@@ -1,6 +1,6 @@
 ---
 title: "nahamctf 2023"
-date: 2023-02-01T12:13:32+05:30
+date: 2023-06-17T12:13:32+05:30
 description: "I wanted to ROP, but it was too much for too little time. Some brief writeups and a good PWN breakdown at bottom."
 tags: [python, GOT, pwn, web, ret2libc]
 ---
