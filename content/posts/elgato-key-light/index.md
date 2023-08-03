@@ -1,6 +1,6 @@
 ---
 title: "Hacking Together An Elgato Key Light Air Siri Shortcut"
-date: 2023-07-10T12:13:32+05:30
+date: 2023-08-02T12:13:32+05:30
 description: "Setting Up and Utilizing Hidden Functionality to Make Key Light Usage Easier"
 tags: [mDNS, system]
 ---
