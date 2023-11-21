@@ -92,4 +92,3 @@ This all boils down two a GET request to see the current configuration of the li
 ## Profit
 
 And with that, you can add it to "Hey Siri" (or just "Siri" now) so that you can control the light completely untethered. This article isn't super in-depth but should help get you up and running without needing to have to open the Control Center app constantly for your light. There is more customization that can be done by editing the `brightness` field and whatnot. You can turn the brightness down if it's above a threshold or more, the customization is pretty boundless to suit your needs.
-
