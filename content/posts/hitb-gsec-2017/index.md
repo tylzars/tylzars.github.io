@@ -325,4 +325,4 @@ sleep(2);
 
 We set our source of the read to be the shell command we wrote into the `dma_buf`. We need to provide a destination address for the command to execute correctly so we pass it our `dma_buff` physical address. We only need a single byte to trigger the bug so we set count to `1` and then call our overwritten function. The program now will execute `(*opaque->system)(buffer);` instead of `(*opaque->enc)(buffer,*(uint *)&(opaque->dma).cnt);` allowing us to escape the QEMU VM.
 
-Mhm, I think that's all for now. I'll come back and hopefully clean this up at a later point. The full explolit code can be found here: [Link](/content/posts/hitb-gsec-2017/main.c). Thanks for reading!!!
+Mhm, I think that's all for now. I'll come back and hopefully clean this up at a later point. The full explolit code can be found here: [Link](/posts/hitb-gsec-2017/main.c). Thanks for reading!!!
