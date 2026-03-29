@@ -27,7 +27,7 @@ url = "https://twitter.com/tylzars"
 [[params.social]]
 name = "Personal Site"
 icon = "layout"
-url = "https://zars.me/home"
+url = "https://zars.me/"
 
 # Website top menu
 [[menu.main]]
