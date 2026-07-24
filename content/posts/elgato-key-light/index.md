@@ -92,3 +92,42 @@ This all boils down two a GET request to see the current configuration of the li
 ## Profit
 
 And with that, you can add it to "Hey Siri" (or just "Siri" now) so that you can control the light completely untethered. This article isn't super in-depth but should help get you up and running without needing to have to open the Control Center app constantly for your light. There is more customization that can be done by editing the `brightness` field and whatnot. You can turn the brightness down if it's above a threshold or more, the customization is pretty boundless to suit your needs.
+
+## Python Version
+
+To accomplish the same thing in Python, the following code can be used with either mDNS name or IP.
+
+```python
+#!/usr/bin/python3
+import requests
+import json
+
+DNS_OR_IP = "192.168.1.129"
+
+class key_light():
+    def __init__(self, IP_OR_DNS):
+        self.url = f"http://{IP_OR_DNS}:9123/elgato/lights"
+        self.status = {}
+        self.get_current_status()
+
+    def get_current_status(self):
+        self.status = json.loads(requests.get(self.url).content)
+
+    def turn_on(self):
+        self.status["lights"][0]["on"] = 1
+        requests.put(self.url, json.dumps(self.status))
+
+    def turn_off(self):
+        self.status["lights"][0]["on"] = 0
+        requests.put(self.url, json.dumps(self.status))
+    
+    def toggle(self):
+        if self.status["lights"][0]["on"] == 0:
+            self.turn_on()
+        else:
+            self.turn_off()
+
+key_light_air = key_light(DNS_OR_IP)
+key_light_air.get_current_status()
+key_light_air.toggle()
+```
