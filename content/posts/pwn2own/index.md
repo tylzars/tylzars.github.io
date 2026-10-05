@@ -9,7 +9,7 @@ tags: []
 
 ## Proof
 
-![pwned](pwned.png)
+![pwned](./pwned.png)
 
 ## Notes
 
