@@ -9,7 +9,7 @@ tags: []
 
 ## Proof
 
-![pwned](./pwned.png)
+TBD
 
 ## Notes
 
